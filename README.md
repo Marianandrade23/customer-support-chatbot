@@ -2,8 +2,20 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
 
+1. Clone git repository
+```bash
+    $ git clone https://github.com/DAltier/customer-support-ai.git
+```
+2. Install Packages (If have not)
+```bash
+    $ npm install
+```
+3. Add your OpenAI key by creating your own ```.env.local``` file in the root directory
+```bash
+    OPENAI_API_KEY=your_openAI_apikey
+```
+4. Run the development server
 ```bash
 npm run dev
 # or
