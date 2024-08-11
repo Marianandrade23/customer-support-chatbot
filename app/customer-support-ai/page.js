@@ -111,9 +111,10 @@ const CustomerSupportAI = () => {
           direction={'column'}
           width="500px"
           height="700px"
-          border="1px solid black"
+          border="1px solid #dce6f5"
           p={2}
           spacing={3}
+          bgcolor={'#dce6f5'}
         >
           <Stack
             direction={'column'}
@@ -131,12 +132,8 @@ const CustomerSupportAI = () => {
                 }
               >
                 <Box
-                  bgcolor={
-                    message.role === 'assistant'
-                      ? 'primary.main'
-                      : 'secondary.main'
-                  }
-                  color="white"
+                  bgcolor={message.role === 'assistant' ? '#b7b9bd' : '#edf2fa'}
+                  color="black"
                   borderRadius={16}
                   p={3}
                 >
@@ -159,6 +156,7 @@ const CustomerSupportAI = () => {
               variant="contained"
               onClick={sendMessage}
               disabled={isLoading}
+              sx={{ backgroundColor: '#95989c', fontSize: 20 }}
             >
               {isLoading ? 'Sending...' : 'Send'}
             </Button>

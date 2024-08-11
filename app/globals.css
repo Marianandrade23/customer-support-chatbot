@@ -11,12 +11,14 @@ body {
 }
 
 .main-container {
+  background: url(../public/images/bg-image.jpeg) no-repeat center center fixed;
+  background-size: cover;
   height: 100vh;
   width: 100vw;
 }
 
 .navbar-container {
-  background-color: white;
+  background-color: transparent;
   box-shadow: none;
 }
 
@@ -28,13 +30,12 @@ body {
 
 .navbar-title {
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 .navbar-buttons {
   display: flex;
   gap: 16px;
-  color: black;
 }
 
 .content-container {
@@ -49,7 +50,7 @@ body {
 
 .footer-box {
   width: 100vw;
-  color: black;
+  color: white;
   padding: 8px;
   display: flex;
   justify-content: center;
