@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-container {
-  background-color: gray;
+  background-color: white;
   box-shadow: none;
 }
 
@@ -34,6 +34,7 @@ body {
 .navbar-buttons {
   display: flex;
   gap: 16px;
+  color: black;
 }
 
 .content-container {
