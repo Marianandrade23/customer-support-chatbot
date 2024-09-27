@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). his project was created as part of the Headstarter Fellowship by Dana Altier & Mariana Andrade.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This project was created as part of the Headstarter Fellowship by Dana Altier & Mariana Andrade.
 
 ## Getting Started
 
